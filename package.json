@@ -29,16 +29,7 @@
   "devDependencies": {
     "@types/node": "^18.6.3",
     "@types/react": "18",
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
     "autoprefixer": "10.4.8",
-    "eslint": "^8.21.0",
-    "eslint-config-next": "^12.2.3",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-tailwindcss": "^3.6.0",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.0",
@@ -49,35 +40,6 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended",
-      "next/core-web-vitals",
-      "plugin:jsx-a11y/recommended",
-      "plugin:prettier/recommended",
-      "plugin:react/recommended",
-      "plugin:tailwindcss/recommended",
-      "prettier"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "plugins": [
-      "jsx-a11y",
-      "prettier",
-      "react",
-      "tailwindcss"
-    ],
-    "root": true,
-    "rules": {
-      "no-undef": "off",
-      "react/react-in-jsx-scope": "off",
-      "tailwindcss/classnames-order": [
-        "warn",
-        {
-          "officialSorting": true
-        }
-      ]
     }
   }
 }
