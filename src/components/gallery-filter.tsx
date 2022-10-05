@@ -10,7 +10,7 @@ interface GalleryFilterProps {
 
 const GalleryFilter: FC<GalleryFilterProps> = ({ activeFilter, setFilter }) => {
   return (
-    <div className="flex place-content-center my-12">
+    <div className="my-12 flex place-content-center">
       <div className="flex gap-6">
         {filters.map(filter => {
           return (

@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 export default function FooterSection(): JSX.Element {
   return (
     <Footer>
-      <div className="w-full container mx-auto my-24">
+      <div className="container mx-auto my-24 w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <span className="self-center whitespace-nowrap px-3 text-xl font-semibold dark:text-white">
             lifestyle.olegchursin.com
