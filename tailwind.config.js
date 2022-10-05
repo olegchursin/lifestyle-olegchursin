@@ -8,6 +8,6 @@ module.exports = {
     './public/**/*.html',
     './src/**/*.{ts,tsx}'
   ],
-  plugins: [require('flowbite/plugin')],
+  plugins: [require('flowbite/plugin'), require('prettier-plugin-tailwindcss')],
   theme: {}
 };

@@ -29,7 +29,7 @@ const GallerySection: FC = () => {
   const handleMoveNext = () => setIndex(nextIndex);
 
   return (
-    <div className="pt-6 px-6 md:px-0">
+    <div className="px-6 pt-6 md:px-0">
       <GalleryFilter activeFilter={activeFilter} setFilter={setActiveFilter} />
       <Gallery
         images={images}
